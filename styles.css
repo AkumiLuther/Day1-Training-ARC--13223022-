@@ -1,0 +1,34 @@
+table {
+  border: 2px solid red;  /* Set a reasonable border width */
+  padding: 10px;          /* Space inside the table */
+  margin: 20px auto;      /* Center the table with reasonable spacing */
+  border-collapse: collapse; /* Ensures borders don't double */
+}
+
+/* Optional: Style table cells */
+th, td {
+  border: 1px solid black; /* Adds border to table cells */
+  padding: 8px;            /* Adds padding inside cells */
+  text-align: center;      /* Centers text */
+}
+
+h4{
+  margin : 50px;
+  padding: 0;
+}
+
+.info-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  gap: 20px; /* Adds space between text and image */
+}
+
+.text {
+  display: flex;
+  flex-direction: column; /* Stack h4 elements vertically */
+}
+
+.profile-img {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
